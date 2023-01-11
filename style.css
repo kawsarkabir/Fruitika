@@ -77,7 +77,27 @@
     background: #f28123;
     border-radius: 20px;
 }
+
+/* ==== header section responsive style here ==== */
+@media  only screen and (max-width: 768px) {
+    .header-content h1{
+        color: #fff;
+        font-size: 30px;
+        margin: 18px 0px;
+        font-weight: 400;
+    }
+    
+}
+
+
+
+
+
+
+
 /* === header section end ======= */
+
+/* === service section start ======= */
 .service-section{
     background: #f5f5f5;
     padding: 50px 0px;
@@ -90,3 +110,15 @@
 img{
     max-width: 100%;
 }
+/* ======== service sction responsive style here ===== */
+@media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+         
+    }
+    .service-content{
+        grid-template-columns: 1fr;
+    }
+
+}
+/* ==== service section end ==== */
