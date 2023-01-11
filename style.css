@@ -89,12 +89,6 @@
     
 }
 
-
-
-
-
-
-
 /* === header section end ======= */
 
 /* === service section start ======= */
@@ -122,3 +116,50 @@ img{
 
 }
 /* ==== service section end ==== */
+/* ==== product section start ===== */
+.product-section{
+    padding: 50px 0;
+}
+.product-title{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.product-title h1{
+    font-size: 40px;
+}
+.product-title p{
+    margin: 10px 0px;
+}
+.product-title span{
+    color: #f28123;
+}
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.card{
+    box-shadow: 1px 2px 20px rgb(169 169 169);
+    text-align: center;
+    padding: 40px;
+    transition: .5s;
+}
+.card:hover{
+    box-shadow: none;
+}
+.card img{
+    width: 250px;
+}
+.card P{
+    margin: 12px 0px;
+}
+/*  === product section responsive style here === */
+@media only screen and (max-width: 768px) {
+    .product-title h1{
+    font-size: 30px;
+}
+    .product-content{
+    grid-template-columns: 1fr;
+}
+    
+}
