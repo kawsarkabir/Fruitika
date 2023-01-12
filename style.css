@@ -225,3 +225,35 @@ img{
         justify-content: center;
     }
 }
+/* ========== deal of the month section doen  */
+/* ========= review section start here =========== */
+.review-section{
+    height: 500px;
+    /* padding: 80px 0px 50px 0px; */
+}
+.review{
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+.review img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.review h2{
+    margin: 10px 0px;
+}
+.review h4{
+    margin-bottom: 10px;
+    color: #999999;
+}
+.review p{
+    width: 60%;
+    margin: auto;
+    line-height: 30px;
+    font-style: italic;
+    font-size: 19px;
+    color: #999999;
+}
+/* ==== review section done ==== */
