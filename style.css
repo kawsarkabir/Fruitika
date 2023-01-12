@@ -229,6 +229,7 @@ img{
 /* ========= review section start here =========== */
 .review-section{
     height: 500px;
+    padding: 50px 0px;
     /* padding: 80px 0px 50px 0px; */
 }
 .review{
@@ -257,3 +258,62 @@ img{
     color: #999999;
 }
 /* ==== review section done ==== */
+/*  === fruitkha section start */
+.fruitkha-section{
+    height: 400px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+.fruitkha-content{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 30px;
+    justify-items: center;
+}
+/* .fruitkha-img img{
+    z-index: 1;
+    position: relative;
+}
+.fruitkha-img img::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(52, 124, 153, 0.753);
+    z-index: -1;
+    border-radius: 20px;
+
+} */
+ 
+.fruitkha-text .span{
+    font-size: 18px;
+    color: #999999;
+}
+.fruitkha-text h1{
+    font-size: 40px;
+}
+.fruitkha-text p{
+    line-height: 25px;
+    margin: 15px 0px;
+}
+.fruitkha-text .ft-color{
+    color: #f28123;
+}
+
+/* fruitkha section responsive start here */
+
+@media only screen and (max-width: 768px) {
+    .fruitkha-section{
+        height: 100%;
+    }
+    .fruitkha-content{
+        grid-template-columns:1fr;
+        grid-gap: 40px;
+    }
+    .fruitkha-text{
+        text-align: center;
+    }
+    
+}
