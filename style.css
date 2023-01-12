@@ -261,7 +261,7 @@ img{
 /*  === fruitkha section start */
 .fruitkha-section{
     height: 400px;
-    padding-top: 100px;
+    margin: 100px 0px;
     margin-bottom: 50px;
 }
 .fruitkha-content{
@@ -298,7 +298,7 @@ img{
     line-height: 25px;
     margin: 15px 0px;
 }
-.fruitkha-text .ft-color{
+.ft-color{
     color: #f28123;
 }
 
@@ -317,3 +317,51 @@ img{
     }
     
 }
+/* ==== fruiutkha section end === */
+/* === discount section start ==== */
+.discount-section{
+    background-image: url(./image/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    padding: 100px 0px;
+    margin-bottom: 50px;
+}
+.discount-text h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.sale{
+    display: flex;
+    margin-top: 20px;
+}
+.sale .fitthi strong{
+    font-size: 50px;
+    margin: 0px 10px;
+}
+.sale p{
+    font-size: 23px;
+}
+.fitthi span{
+    font-size: 22px;
+}
+/* === discount section responsive start === */
+@media only screen and (max-width: 768px) {
+    .discount-section{
+        background-image: none;
+        height: 100%;
+        background: #F4F4F4;
+        text-align: center;
+         
+    }
+    .discount-text h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .sale{
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+/*  ==== discount section end ==== */
