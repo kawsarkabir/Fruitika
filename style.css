@@ -160,6 +160,7 @@ img{
 }
     .product-content{
     grid-template-columns: 1fr;
+    grid-gap: 20px;
 }
 }
 /* === our product section end ======= */
