@@ -137,6 +137,7 @@ img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    grid-gap:30px ;
 }
 .card{
     box-shadow: 1px 2px 20px rgb(169 169 169);
@@ -365,3 +366,43 @@ img{
     }
 }
 /*  ==== discount section end ==== */
+/* === news section start ==== */
+.news{
+    box-shadow: 1px 2px 20px rgb(169 169 169);
+    transition: .5s;
+    border-radius: 5px;
+}
+.news:hover{
+    box-shadow: none;
+}
+.news img{
+    border-radius: 5px 5px 0 0;
+}
+.news .img-content{
+    padding: 25px;
+}
+.news .img-content p{
+    margin: 20px 0px;
+    color: #555;
+}
+.img-content h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+.img-content .read-more{
+    display: inline-block;
+    margin-top: 15px;
+    color: #051922;
+    transition: 0.3s;
+    font-weight: 700;
+    text-decoration: none;
+}
+.img-content .read-more:hover{
+    color: #f28123;
+}
+.img-content .icon{
+    margin-top: 10px;
+    color: #555;
+}
+/*  ===== news section done ==== */
